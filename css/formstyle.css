@@ -1,0 +1,363 @@
+body, div, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+    margin: 0px; padding: 0px; border: 0px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.bold{
+	font-weight: bold;	
+}
+
+a{
+	color: #00abf9;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e547a3;
+	text-decoration: none;
+}
+
+
+img{
+	border: none;
+}
+
+body{
+	background-color: #F00;
+}
+
+div#header_logo, div#contentWrapper{
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	width: 865px;
+}
+
+div#header_logo{
+	top: 15px;
+	height: 160px;
+	color: #f3e018;
+	background-image: url(../images/header_logo4.png);
+	background-repeat: no-repeat;
+}
+
+div#header_logo p#languages{
+	padding-top: 20px;
+	padding-left: 710px;
+}
+
+div#header_logo p{
+	padding-top: 50px;
+	padding-left: 585px;
+}
+
+div#header_logo a{
+	color: #777;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	font-size: 13px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-style: italic;
+}
+
+div#header_logo a:hover{
+	color: #00abf9;
+}
+
+div#contentWrapper{
+	
+	top: 153px;
+	min-height: 500px;
+	background: url( '../images/background_content.png' ) repeat-y;
+	padding: 0px 21px 20px 21px;
+}
+
+div#footerWrapper{
+	background: url( '../images/background_footer_wrapper.png' ) repeat-x;
+	position: relative;
+	left: -21px;
+	top: -50px;
+	margin-bottom: -50px;
+	padding-top: 50px;
+	z-index: 1;
+}
+
+div#footer{
+	background-color: #f9f9f0;
+	position: relative;
+	top: 0px;
+	height: 15px;
+	background: url( '../images/background_footer.jpg' ) no-repeat;
+	background-color: #D3D3D3;
+	color: #00ABF9;
+	font-size: 13px;
+	font-family: "Georgia", "Arial";
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	background-image: url(../images/background_footer.jpg);
+}
+
+div#header{
+	background-image: url(../images/background_header.jpg);
+	background-repeat: no-repeat;
+	height: 69px;
+	position: relative;
+	left: -9px;
+}
+
+div#welcome{
+	width: 450px;
+	color: #9d9fa0;
+	font-size: 17px;
+	font-family: "Helvetica", "Tahoma", "Verdana";
+	margin-left: 30px;
+	line-height: 22px;
+	z-index: 10;
+	padding-top: 20px;
+}
+
+div#welcome h1{
+	color: #00abf9;
+	font-weight: normal;
+	font-family: "Georgia", "Verdana";
+	font-style: italic;
+	font-size: 30px;
+	line-height: 34px;
+	
+}
+
+div#welcome a{	
+	color: #00abf9;
+	text-decoration: none;
+}
+
+/*Meus Trabalhos e projetos CSS*/
+ 
+div#mywork{
+	z-index: 10;
+	position: relative;
+}
+
+
+div#mywork h2{
+	margin-top: -25px;
+	padding-left: 32px;
+	margin-left: -8px;
+	color: #ff5757;
+	font-size: 20px;
+	font-family: "Helvetica", "Tahoma", "Verdana";
+	font-weight: normal;
+	padding-bottom: 0px;
+}
+
+div.project{
+	background:url(../images/background_project_contato.jpg) no-repeat;
+	height: 422px;
+	width: 765px;
+	padding: 20px 25px;
+	position: relative;
+	z-index: 5;
+	text-align:center;
+}
+
+div.buttons{
+	position: relative;
+	left: 515px;
+	width: 300px;
+	top: -50px;
+	z-index: 6;
+}
+
+div.buttons a.top{
+	position: relative;
+	left: 260px;
+	top: -265px;
+}
+
+a.seemore, a.externlink{
+	width: 105px;
+	height: 25px;
+	font-size: 14px;
+	font-family: "Georgia", "Verdana";
+	font-weight: bold;
+	font-style: italic;
+	color: #ff5757;
+	text-decoration: none;
+	width: 105px;
+	background-color: #eeeeee;
+	padding: 5px;
+	margin-left: 5px;
+	position: relative;
+	left: -10px;
+}
+
+a.seemore:hover, a.externlink:hover{
+	background-color: #feef4f;
+}
+
+
+
+
+/* Css do contato */
+ 
+div#contact{
+	color: #8e999e;
+	font-size: 12px;
+	font-family: "Verdana";
+	padding: 0px 30px 0px 60px;
+	line-height: 18px;
+	width: 765px;
+	
+}
+
+div#contact a.top{
+   position: relative;
+   top: -30px;
+   
+}
+
+div#contact h2{
+	width: 249px;
+	height: 56px;
+	background: url( '../images/background_contactme.jpg' ) no-repeat;
+	color: #ff5757;
+	font-size: 20px;
+	font-family: "Helvetica", "Tahoma", "Verdana";
+	font-weight: normal;
+	margin-left: -45px;
+	margin-top: -20px;
+	margin-bottom: -30px;
+	padding-top: 30px;
+	padding-left: 45px;
+}
+
+div#contact div{
+	width: 32%;
+	float: left;
+}
+
+div#contact div p{
+	padding-right: 30px;
+}
+
+div#contact div ul{
+	list-style-type: none;
+}
+
+div#contact div ul li{
+	background-image: url(../images/contact_ul_style.gif);
+	background-repeat: no-repeat;
+	background-position: 0 7px;
+	padding-left: 15px;
+}
+
+div#links{
+	color: #8e999e;
+	font-size: 12px;
+	font-family: "Arial";
+	padding: 0px 30px 0px 60px;
+	line-height: 18px;
+	background: url(../images/background_links.png) no-repeat;
+	height: 168px;
+	margin-top: 20px;	
+}
+
+div#links a.top{
+   position: relative;
+   top: -30px;
+   left: -10px;
+}
+
+
+div#links h2{
+	color: #00abf9;
+	font-size: 20px;
+	font-family: "Helvetica", "Tahoma", "Verdana";
+	font-weight: normal;
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
+
+div#links ul{
+	float: left;
+	width: 24%;
+	list-style-type: none;
+}
+
+div#links ul li{
+	background-image: url( '../images/links_listitem.gif' );
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	padding-left: 15px;
+}
+
+div#links ul li a{
+	color: #00abf9;
+	text-decoration: none;
+}
+
+div#links ul li a:hover{
+	color: #e547a3;
+	text-decoration: none;
+}
+
+/*formulário style ***************************************************************************8*/
+
+
+form#proposalform {
+	background-image:url(../images/background_project_contato_fundo.png);
+	width:499px;
+	height:401px;
+	
+}
+form#proposalform table{
+	margin-left:20px;
+}
+
+form#proposalform th{
+	text-align:center;
+	padding-bottom:20px;
+}
+form#proposalform label{
+	color: #9d9fa0;
+	font-size: 14px;
+	font-family: "Georgia", "Verdana";
+	font-weight: bold;
+	font-style: italic;	
+}
+
+form#proposalform fieldset{	
+	border: none;
+	border-bottom: 1px dashed #999;
+	
+}
+
+form#proposalform input.single{
+	border: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	background: transparent;	
+	opacity: 0.7;
+}
+
+form#proposalform textarea{
+	border:1px dashed #999;
+	
+}
+
+form#proposalform #submit_message{
+	width:120px;
+	height:24px;
+	margin-top:10px;
+	margin-left:170px;
+}
+
